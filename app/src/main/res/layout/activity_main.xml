@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="#F4F3E6"
+    tools:context="MainActivity">
+
+    <TextView android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#5D0703"
+        android:text="Seja Bem-Vindo!"
+        />
+
+    <Button android:id="@+id/entrarButton"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#FFA175"
+        android:textColor="#5d0703"
+        android:textSize="15sp"
+        android:text="Entrar"
+        />
+
+    <Button android:id="@+id/cadastrarButton"
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#FC703C"
+        android:textColor="#5d0703"
+        android:textSize="15sp"
+        android:text="Cadastrar"
+        />
+
+
+</LinearLayout>
